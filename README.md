@@ -46,8 +46,7 @@ npm start
 ### Deployment
 
 Aira Gaming is deployed on Vercel. You can access it at:
-Aira Gaming Live
-
+https://airagaming.vercel.app/
 ### Usage
 
 Sign Up / Login: Create an account to access tournament features.
