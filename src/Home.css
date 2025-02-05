@@ -1,0 +1,82 @@
+.App {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0; /* Remove default padding if any */
+}
+
+.navbar-video-container {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    position: relative; /* Position relative for internal positioning */
+    overflow: hidden; /* Hide overflow if any */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.video-container {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    position: absolute; /* Absolute positioning to stretch full size */
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center; /* Center video vertically */
+    justify-content: center; /* Center video horizontally */
+}
+
+.intro-video {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height to cover container */
+    object-fit: cover; /* Ensure the video covers the container */
+}
+
+.section {
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin: 20px 0;
+    box-sizing: border-box;
+    position: relative; /* Ensure sections are positioned relative to their container */
+    z-index: 1; /* Ensure sections are above the video container */
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-video-container {
+        height: 60vh; /* Adjust the height for smaller screens */
+    }
+
+    .intro-video {
+        height: auto; /* Maintain aspect ratio on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-video-container {
+        height: 50vh; /* Further adjust height for very small screens */
+    }
+
+    .intro-video {
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+#home {
+    background-color: #e3e3e3;
+}
+
+#tournament {
+    background-color: #d4d4d4;
+}
+
+#Games {
+    background-color: #c5c5c5;
+}
+
+#About {
+    background-color: #b6b6b6;
+}
+
+#contact {
+    background-color: #a7a7a7;
+}
