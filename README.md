@@ -1,11 +1,11 @@
-### Aira Gaming - Online Tournament Registration & Player Management
+# Aira Gaming - Online Tournament Registration & Player Management
 -----
 
-# Overview
+### Overview
 
 Aira Gaming is a comprehensive platform for online tournament registration and player management. It provides an intuitive interface for players to register for tournaments, track their progress, and manage their profiles efficiently.
 
-# Features
+### Features
 
 Tournament Registration: Players can easily sign up for upcoming tournaments.
 
@@ -17,7 +17,7 @@ User Authentication: Secure login and authentication for players and admins.
 
 Responsive Design: Optimized for both desktop and mobile users.
 
-# Tech Stack
+### Tech Stack
 
 Frontend: React.js, Tailwind CSS
 
@@ -31,16 +31,16 @@ Graph Library: Chart.js / Recharts
 
 Installation
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/your-repo/aira-gaming.git
 
-# Navigate to project folder
+### Navigate to project folder
 cd aira-gaming
 
 # Install dependencies
 npm install
 
-# Run the development server
+### Run the development server
 npm start
 
 ### Deployment
